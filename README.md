@@ -7,6 +7,11 @@ Mesh batch tool for Unity3D
 
 Mesh Bakery is an open source tool for optimizing draw calls within Unity3D by combining similar meshes into one.
 
+## Version
+---
+Latest Release: 1.0.0
+Date: 8/19/2017
+
 ## Documentation
 ---
 
