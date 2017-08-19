@@ -9,7 +9,9 @@ Mesh Bakery is an open source tool for optimizing draw calls within Unity3D by c
 
 ## Version
 ---
+
 Latest Release: 1.0.0
+
 Date: 8/19/2017
 
 ## Documentation
