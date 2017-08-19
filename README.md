@@ -12,4 +12,4 @@ Mesh Bakery is a tool that attempts to optimize draw calls within Unity3D. Once 
 
 In order to use MeshBakery simply attach it to a GameObject which parents several identical meshes with matching materials. Use the Batch Ingredient data member to add to the list of Batch Indegredients. Each Batch Ingredient will contain a single mesh and a single material. Hit the play button and upon Start() the MeshBakery will create brand new GameObjects located at 0, 0, 0 in world space that contain the newly baked meshes which have the appropriate materials assigned.
 
-[Img](https://drive.google.com/file/d/0B9R4-NvDHM5vYW5vRTZMcjJqYWc/view)
+![Img](https://drive.google.com/file/d/0B9R4-NvDHM5vYW5vRTZMcjJqYWc/view)
