@@ -74,7 +74,7 @@ namespace Overtop.Utility
                     m_Batches[y].Bake();
                 }
             }
-            //m_MeshFilters.Clear();
+            m_MeshFilters.Clear();
             m_StopWatch.Stop();
             m_TTC = m_StopWatch.Elapsed.Milliseconds;
         }

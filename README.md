@@ -23,6 +23,17 @@ In order to use MeshBakery simply attach it to a GameObject which parents severa
 
 [MeshBakery Component Setup](https://drive.google.com/file/d/0B9R4-NvDHM5vYW5vRTZMcjJqYWc/view)
 
+To set up MeshBakery through code...
+
+    yourGameObj = (GameObject)Instantiate(Resources.Load("Path/To/Prefab"));
+    yourGameObj.AddComponent<MeshBakery>();
+    yourGameObj.GetComponent<MeshBakery>().m_BatchIngredients = new List<BatchIngredient> {
+        new BatchIngredient(yourGameObj.GetComponentInChildren<MeshFilter>().sharedMesh, yourGameObj.GetComponentInChildren<MeshRenderer>().sharedMaterial)
+    };
+    yourGameObj.GetComponent<MeshBakery>().Init();
+
+Alternatively you can set up your own arbitrary look up function like the one that exists within MeshBakery.cs
+SearchForArbitraryMeshToBatch()...and pass that into the BatchIngredient constructor.
 
 ### Important Notes
 ---
