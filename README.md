@@ -23,6 +23,8 @@ In order to use MeshBakery simply attach it to a GameObject which parents severa
 
 [MeshBakery Component Setup](https://drive.google.com/file/d/0B9R4-NvDHM5vYW5vRTZMcjJqYWc/view)
 
+Note that there is a checkbox "Launch From Editor". If you set up MeshBakery through the Unity Editor you must check that checkbox or the initialization won't happen properly. Setting up MeshBakery through code automatically overrides that checkbox.
+
 To set up MeshBakery through code...
 
     yourGameObj = (GameObject)Instantiate(Resources.Load("Path/To/Prefab"));
