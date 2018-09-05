@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MeshBakery
+namespace Overtop.Utility
 {
     [System.Serializable]
     public class Batch
