@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MeshBakery
+namespace Overtop.Utility
 {
     /// <summary>
     /// A BatchIngredient is an object to be defined within the Unity Editor, MeshCombiner will take
